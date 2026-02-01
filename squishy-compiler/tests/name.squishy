@@ -1,0 +1,46 @@
+// This is a comment.
+
+/*
+* This is a comment block.
+*/
+
+struct anotherStruct {
+    field t0 u8
+}
+
+struct name {
+    field t1 u8
+    field t2 i8
+    field t3 i16
+    field t4 u16
+    field t5 i16
+    field t6 u32
+    field t7 i32
+    field t8 f32
+    field t9 f64
+    field t10 vector2
+    field t11 vector3
+    field t12 vector2int16
+    field t13 vector3int16
+    field t14 vector2norm
+    field t15 vector3norm
+    field t16 cframe
+    field t17 cframe_e
+    field t18 cframe_q
+    field t19 color3
+    field t20 color3_hdr
+    field t22 string
+    field t23 string_l
+    field t24 bool
+    field t25 [16]bool
+    field t26 []bool
+    field t27 []u8
+    field t28 [16]u8
+    field t29 {u8}map
+    field t30 {u8}smap
+    field t31 f16
+    field t32 f24
+    field t33 anotherStruct
+}
+
+exports name
